@@ -40,6 +40,7 @@ jobs:
       - name: Build APK (Local)
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          EAS_PROJECT_ID: d45b7f8e-1234-4567-8901-abcdef123456
         run: eas build --platform android --profile preview --local --non-interactive --output build.apk
 
       - name: Upload APK
