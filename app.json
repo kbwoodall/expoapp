@@ -29,8 +29,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "d45b7f8e-1234-4567-8901-abcdef123456"
+        "projectId": "489496ee-14d9-4b49-a703-29886096a1ca"
       }
-    }
+    },
+    "owner": "kerrywoodall"
   }
 }
